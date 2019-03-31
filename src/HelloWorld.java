@@ -13,8 +13,7 @@ public class HelloWorld {
         int h=sc.nextInt();
         System.out.println("输入半径");
         int r=sc.nextInt();
-        System.out.println("体积"+3.14*r*r*h);
-
+        System.out.println("体积是"+3.14*r*r*h);
     }
 
 }
