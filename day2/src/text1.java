@@ -7,6 +7,7 @@ import java.util.Scanner;
 // 数组的长度不可以动态改变
 public class text1 {
     public static void main(String[] args) {
+        System.out.println("请输入数");
         Scanner sc=new Scanner(System.in);
         int x=sc.nextInt();
         int[] a={1,2,3,5,7,9};
