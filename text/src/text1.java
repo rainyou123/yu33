@@ -36,7 +36,7 @@ class Leaf extends Mid{
         System.out.println("执行leaf构造器");
     }
 }
-public class text {
+public class text1{
     public static void main(String[] args) {
         new Leaf();
         new Leaf();
