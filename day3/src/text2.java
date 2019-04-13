@@ -65,7 +65,7 @@ public class text2 {
             System.out.println("没有中奖！");
         }
     }
-    //获取奖池   static 因为主函数main是static 主函数想要调用这个方法，这个方法只能是static
+    //获取奖池   static 因为主函数main是static 主函数想要调用这个方法，这个方法只能是static.
     public static String[] getPool(){
         String[] pool=new String[33];
         for(int i=0;i<pool.length;i++){
