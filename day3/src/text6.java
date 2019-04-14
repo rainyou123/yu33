@@ -44,6 +44,7 @@ class ChickenManage{
             }
         }
     }
+
     public Chicken getChickenById(int i){
         for(Chicken c:chickens){
             if(c.getId()==i){
