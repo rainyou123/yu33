@@ -1,6 +1,8 @@
 public class text2 {
     public static void main(String[] args) {
-
+//        in1 i= new in1() ; 不能执行
+        in1 i=new inter();
+        i.eat();
     }
 }
 class inter implements in1,in2{
@@ -15,6 +17,18 @@ class inter implements in1,in2{
 
     @Override
     public void smile() {
+
+    }
+}
+class inter1 implements in1{
+
+    @Override
+    public void smile() {
+
+    }
+
+    @Override
+    public void eat() {
 
     }
 }
