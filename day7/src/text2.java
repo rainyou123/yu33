@@ -9,12 +9,19 @@ public class text2 {
         list.add("momo");
         list.add("nana");
         iterator(list);
-        String[] strings = textSupplier(10,()->{
-            String[] ss=new String[10];
-            for (int i=0;i<ss.length;i++){
-                ss[i]=(Math.random()*100)+"";
-            }
-            return ss;
+//        String[] strings = textSupplier(10,()->{
+//            String[] ss=new String[10];
+//            for (int i=0;i<ss.length;i++){
+//                ss[i]=(Math.random()*100)+"";
+//            }
+//            return ss;
+//        });
+        String[] strings=textSupplier(10,()->{
+           String [] strings1=new String[10];
+           for(int i=0;i<strings1.length;i++){
+               strings1[i]=(Math.random()*100)+"";
+           }
+           return strings1;
         });
         for(String s : strings){
             System.out.println(s);
