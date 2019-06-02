@@ -8,6 +8,5 @@ public class Test_02 {
         list.add("2");
         System.out.println(list);
         System.out.println(list.toString());
-
     }
 }
